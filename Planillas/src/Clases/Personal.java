@@ -11,7 +11,7 @@ package Clases;
  */
 public class Personal {
     private int ci;
-    String nombre;
+    private String nombre;
 
     public int getCi() {
         return ci;
@@ -19,6 +19,14 @@ public class Personal {
 
     public void setCi(int ci) {
         this.ci = ci;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
     
 }
