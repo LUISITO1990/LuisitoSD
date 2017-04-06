@@ -11,6 +11,7 @@ package Clases;
  */
 public class Personal {
     private int ci;
+    String nombre;
 
     public int getCi() {
         return ci;
