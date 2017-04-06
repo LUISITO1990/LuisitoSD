@@ -10,5 +10,14 @@ package Clases;
  * @author LUISITO
  */
 public class Personal {
+    private int ci;
+
+    public int getCi() {
+        return ci;
+    }
+
+    public void setCi(int ci) {
+        this.ci = ci;
+    }
     
 }
